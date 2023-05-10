@@ -1,0 +1,164 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    height: 300vh;
+   
+
+}
+
+header{
+    display: flex;
+    height: 90px;
+    background-color: #F2BBBB;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+   
+    }
+.logo{ 
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 130px;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 3.5vh;
+}
+
+nav{
+    display: flex;
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    position: sticky;
+    top: 0;
+
+}
+
+nav a:hover{
+    color: #BF7A24;
+}
+
+main{
+    background: #f4f3ee;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#section{
+    margin-top: 65px;
+    padding: 70px 0px;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 50%;
+
+}
+
+.info h1{
+    font-size: 32px;
+    min-width: 500px;
+    
+}
+
+.info p{
+    font-size: 17px;
+    font-weight: 600;
+    color: #000000;
+
+}
+
+.info a{
+    color: white;
+    background: #F2BBBB;
+    display: inline-block;
+    height: 40px;
+    width: 120;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 20px;
+
+}
+
+.foto{
+    padding-left: 100px;
+        
+}
+
+.presentacion{
+    border-radius: 100px;
+    height: 400px;
+}
+.medio1{
+    border-radius: 100px;
+    height: 400px;
+    padding: 10px;
+}
+.medio2{
+    border-radius: 100px;
+    height: 400px;
+    padding: 10px;
+}
+.medio3{
+    border-radius: 100px;
+    height: 400px;
+    padding: 10px;
+}
+
+
+.section2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 1200px;
+    width: 100%;
+    background: #f4f3ee;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    gap: 25px;
+}
+
+.info-detallitos{
+    width: 70%;
+    display: flex;
+ 
+
+}
+
+.info-detallitos p{
+    font-size: 20px;
+    font-weight: 600;
+    color: #000000;
+    
+    
+}
+
+.section2 h2{
+    font-size: 30px;
+    color: #F2BBBB;
+    
+    
+}
+
+
